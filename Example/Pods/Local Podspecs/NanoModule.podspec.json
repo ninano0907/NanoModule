@@ -1,0 +1,22 @@
+{
+  "name": "NanoModule",
+  "version": "0.1.0",
+  "summary": "A short description of NanoModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ninano0907/NanoModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ninano0907": "ninano0907@naver.com"
+  },
+  "source": {
+    "git": "https://github.com/ninano0907/NanoModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "NanoModule/Classes/**/*"
+}

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NanoModule
 
 class ViewController: UIViewController {
 

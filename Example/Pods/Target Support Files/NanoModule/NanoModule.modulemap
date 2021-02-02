@@ -1,0 +1,6 @@
+framework module NanoModule {
+  umbrella header "NanoModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
