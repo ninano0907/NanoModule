@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NanoModule'
-  s.version          = '0.1.0'
+  s.version          = '0.1.3'
   s.summary          = 'NanoModule is very very simple'
 
 # This description is used to generate tags and improve search results.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = "long long long long long NanoModule description"
+  s.description      = "a long long long long long NanoModule description"
 
   s.homepage         = 'https://github.com/ninano0907/NanoModule'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -25,8 +25,9 @@ Pod::Spec.new do |s|
   s.author           = { 'ninano0907' => 'ninano0907@naver.com' }
   s.source           = { :git => 'https://github.com/ninano0907/NanoModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '12.0'
+  
+  s.swift_version = '4.2'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'NanoModule/Classes/**/*'
   
