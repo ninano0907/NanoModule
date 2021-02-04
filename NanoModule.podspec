@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NanoModule'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'NanoModule is very very simple'
 
 # This description is used to generate tags and improve search results.
